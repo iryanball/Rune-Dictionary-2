@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E97721B23D5F72700C3ADC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97721A23D5F72700C3ADC2 /* AppDelegate.swift */; };
+		1E97721D23D5F72700C3ADC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97721C23D5F72700C3ADC2 /* SceneDelegate.swift */; };
+		1E97721F23D5F72700C3ADC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97721E23D5F72700C3ADC2 /* ViewController.swift */; };
+		1E97722223D5F72700C3ADC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E97722023D5F72700C3ADC2 /* Main.storyboard */; };
+		1E97722423D5F72700C3ADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E97722323D5F72700C3ADC2 /* Assets.xcassets */; };
+		1E97722723D5F72700C3ADC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E97722523D5F72700C3ADC2 /* LaunchScreen.storyboard */; };
+		1E97723223D5F72700C3ADC2 /* Rune_Dictionary_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97723123D5F72700C3ADC2 /* Rune_Dictionary_2Tests.swift */; };
+		1E97723D23D5F72700C3ADC2 /* Rune_Dictionary_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97723C23D5F72700C3ADC2 /* Rune_Dictionary_2UITests.swift */; };
+		1E97724223D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1E97724123D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E97724823D5F72700C3ADC2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E97724623D5F72700C3ADC2 /* Interface.storyboard */; };
+		1E97724A23D5F72800C3ADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E97724923D5F72800C3ADC2 /* Assets.xcassets */; };
+		1E97725123D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1E97725023D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E97725623D5F72800C3ADC2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97725523D5F72800C3ADC2 /* InterfaceController.swift */; };
+		1E97725823D5F72800C3ADC2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97725723D5F72800C3ADC2 /* ExtensionDelegate.swift */; };
+		1E97725A23D5F72800C3ADC2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97725923D5F72800C3ADC2 /* NotificationController.swift */; };
+		1E97725C23D5F72800C3ADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E97725B23D5F72800C3ADC2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E97722E23D5F72700C3ADC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E97720F23D5F72700C3ADC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E97721623D5F72700C3ADC2;
+			remoteInfo = "Rune Dictionary 2";
+		};
+		1E97723923D5F72700C3ADC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E97720F23D5F72700C3ADC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E97721623D5F72700C3ADC2;
+			remoteInfo = "Rune Dictionary 2";
+		};
+		1E97724323D5F72700C3ADC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E97720F23D5F72700C3ADC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E97724023D5F72700C3ADC2;
+			remoteInfo = "Rune Dictionary 2 WatchKit App";
+		};
+		1E97725223D5F72800C3ADC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E97720F23D5F72700C3ADC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E97724F23D5F72800C3ADC2;
+			remoteInfo = "Rune Dictionary 2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E97726423D5F72800C3ADC2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1E97725123D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97726823D5F72800C3ADC2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1E97724223D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E97721723D5F72700C3ADC2 /* Rune Dictionary 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rune Dictionary 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E97721A23D5F72700C3ADC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E97721C23D5F72700C3ADC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E97721E23D5F72700C3ADC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E97722123D5F72700C3ADC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E97722323D5F72700C3ADC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E97722623D5F72700C3ADC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E97722823D5F72700C3ADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E97722D23D5F72700C3ADC2 /* Rune Dictionary 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rune Dictionary 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E97723123D5F72700C3ADC2 /* Rune_Dictionary_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rune_Dictionary_2Tests.swift; sourceTree = "<group>"; };
+		1E97723323D5F72700C3ADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E97723823D5F72700C3ADC2 /* Rune Dictionary 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rune Dictionary 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E97723C23D5F72700C3ADC2 /* Rune_Dictionary_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rune_Dictionary_2UITests.swift; sourceTree = "<group>"; };
+		1E97723E23D5F72700C3ADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E97724123D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rune Dictionary 2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E97724723D5F72700C3ADC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1E97724923D5F72800C3ADC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E97724B23D5F72800C3ADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E97725023D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rune Dictionary 2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E97725523D5F72800C3ADC2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1E97725723D5F72800C3ADC2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1E97725923D5F72800C3ADC2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1E97725B23D5F72800C3ADC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E97725D23D5F72800C3ADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E97725E23D5F72800C3ADC2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E97721423D5F72700C3ADC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97722A23D5F72700C3ADC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97723523D5F72700C3ADC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97724D23D5F72800C3ADC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E97720E23D5F72700C3ADC2 = {
+			isa = PBXGroup;
+			children = (
+				1E97721923D5F72700C3ADC2 /* Rune Dictionary 2 */,
+				1E97723023D5F72700C3ADC2 /* Rune Dictionary 2Tests */,
+				1E97723B23D5F72700C3ADC2 /* Rune Dictionary 2UITests */,
+				1E97724523D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App */,
+				1E97725423D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension */,
+				1E97721823D5F72700C3ADC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E97721823D5F72700C3ADC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E97721723D5F72700C3ADC2 /* Rune Dictionary 2.app */,
+				1E97722D23D5F72700C3ADC2 /* Rune Dictionary 2Tests.xctest */,
+				1E97723823D5F72700C3ADC2 /* Rune Dictionary 2UITests.xctest */,
+				1E97724123D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App.app */,
+				1E97725023D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E97721923D5F72700C3ADC2 /* Rune Dictionary 2 */ = {
+			isa = PBXGroup;
+			children = (
+				1E97721A23D5F72700C3ADC2 /* AppDelegate.swift */,
+				1E97721C23D5F72700C3ADC2 /* SceneDelegate.swift */,
+				1E97721E23D5F72700C3ADC2 /* ViewController.swift */,
+				1E97722023D5F72700C3ADC2 /* Main.storyboard */,
+				1E97722323D5F72700C3ADC2 /* Assets.xcassets */,
+				1E97722523D5F72700C3ADC2 /* LaunchScreen.storyboard */,
+				1E97722823D5F72700C3ADC2 /* Info.plist */,
+			);
+			path = "Rune Dictionary 2";
+			sourceTree = "<group>";
+		};
+		1E97723023D5F72700C3ADC2 /* Rune Dictionary 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E97723123D5F72700C3ADC2 /* Rune_Dictionary_2Tests.swift */,
+				1E97723323D5F72700C3ADC2 /* Info.plist */,
+			);
+			path = "Rune Dictionary 2Tests";
+			sourceTree = "<group>";
+		};
+		1E97723B23D5F72700C3ADC2 /* Rune Dictionary 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E97723C23D5F72700C3ADC2 /* Rune_Dictionary_2UITests.swift */,
+				1E97723E23D5F72700C3ADC2 /* Info.plist */,
+			);
+			path = "Rune Dictionary 2UITests";
+			sourceTree = "<group>";
+		};
+		1E97724523D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1E97724623D5F72700C3ADC2 /* Interface.storyboard */,
+				1E97724923D5F72800C3ADC2 /* Assets.xcassets */,
+				1E97724B23D5F72800C3ADC2 /* Info.plist */,
+			);
+			path = "Rune Dictionary 2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		1E97725423D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1E97725523D5F72800C3ADC2 /* InterfaceController.swift */,
+				1E97725723D5F72800C3ADC2 /* ExtensionDelegate.swift */,
+				1E97725923D5F72800C3ADC2 /* NotificationController.swift */,
+				1E97725B23D5F72800C3ADC2 /* Assets.xcassets */,
+				1E97725D23D5F72800C3ADC2 /* Info.plist */,
+				1E97725E23D5F72800C3ADC2 /* PushNotificationPayload.apns */,
+			);
+			path = "Rune Dictionary 2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E97721623D5F72700C3ADC2 /* Rune Dictionary 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E97726923D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2" */;
+			buildPhases = (
+				1E97721323D5F72700C3ADC2 /* Sources */,
+				1E97721423D5F72700C3ADC2 /* Frameworks */,
+				1E97721523D5F72700C3ADC2 /* Resources */,
+				1E97726823D5F72800C3ADC2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E97724423D5F72700C3ADC2 /* PBXTargetDependency */,
+			);
+			name = "Rune Dictionary 2";
+			productName = "Rune Dictionary 2";
+			productReference = 1E97721723D5F72700C3ADC2 /* Rune Dictionary 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E97722C23D5F72700C3ADC2 /* Rune Dictionary 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E97726C23D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2Tests" */;
+			buildPhases = (
+				1E97722923D5F72700C3ADC2 /* Sources */,
+				1E97722A23D5F72700C3ADC2 /* Frameworks */,
+				1E97722B23D5F72700C3ADC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E97722F23D5F72700C3ADC2 /* PBXTargetDependency */,
+			);
+			name = "Rune Dictionary 2Tests";
+			productName = "Rune Dictionary 2Tests";
+			productReference = 1E97722D23D5F72700C3ADC2 /* Rune Dictionary 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E97723723D5F72700C3ADC2 /* Rune Dictionary 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E97726F23D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2UITests" */;
+			buildPhases = (
+				1E97723423D5F72700C3ADC2 /* Sources */,
+				1E97723523D5F72700C3ADC2 /* Frameworks */,
+				1E97723623D5F72700C3ADC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E97723A23D5F72700C3ADC2 /* PBXTargetDependency */,
+			);
+			name = "Rune Dictionary 2UITests";
+			productName = "Rune Dictionary 2UITests";
+			productReference = 1E97723823D5F72700C3ADC2 /* Rune Dictionary 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1E97724023D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E97726523D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2 WatchKit App" */;
+			buildPhases = (
+				1E97723F23D5F72700C3ADC2 /* Resources */,
+				1E97726423D5F72800C3ADC2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E97725323D5F72800C3ADC2 /* PBXTargetDependency */,
+			);
+			name = "Rune Dictionary 2 WatchKit App";
+			productName = "Rune Dictionary 2 WatchKit App";
+			productReference = 1E97724123D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1E97724F23D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E97726123D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2 WatchKit Extension" */;
+			buildPhases = (
+				1E97724C23D5F72800C3ADC2 /* Sources */,
+				1E97724D23D5F72800C3ADC2 /* Frameworks */,
+				1E97724E23D5F72800C3ADC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rune Dictionary 2 WatchKit Extension";
+			productName = "Rune Dictionary 2 WatchKit Extension";
+			productReference = 1E97725023D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E97720F23D5F72700C3ADC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ryan Ball";
+				TargetAttributes = {
+					1E97721623D5F72700C3ADC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1E97722C23D5F72700C3ADC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1E97721623D5F72700C3ADC2;
+					};
+					1E97723723D5F72700C3ADC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1E97721623D5F72700C3ADC2;
+					};
+					1E97724023D5F72700C3ADC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1E97724F23D5F72800C3ADC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E97721223D5F72700C3ADC2 /* Build configuration list for PBXProject "Rune Dictionary 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E97720E23D5F72700C3ADC2;
+			productRefGroup = 1E97721823D5F72700C3ADC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E97721623D5F72700C3ADC2 /* Rune Dictionary 2 */,
+				1E97722C23D5F72700C3ADC2 /* Rune Dictionary 2Tests */,
+				1E97723723D5F72700C3ADC2 /* Rune Dictionary 2UITests */,
+				1E97724023D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App */,
+				1E97724F23D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E97721523D5F72700C3ADC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E97722723D5F72700C3ADC2 /* LaunchScreen.storyboard in Resources */,
+				1E97722423D5F72700C3ADC2 /* Assets.xcassets in Resources */,
+				1E97722223D5F72700C3ADC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97722B23D5F72700C3ADC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97723623D5F72700C3ADC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97723F23D5F72700C3ADC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E97724A23D5F72800C3ADC2 /* Assets.xcassets in Resources */,
+				1E97724823D5F72700C3ADC2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97724E23D5F72800C3ADC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E97725C23D5F72800C3ADC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E97721323D5F72700C3ADC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E97721F23D5F72700C3ADC2 /* ViewController.swift in Sources */,
+				1E97721B23D5F72700C3ADC2 /* AppDelegate.swift in Sources */,
+				1E97721D23D5F72700C3ADC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97722923D5F72700C3ADC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E97723223D5F72700C3ADC2 /* Rune_Dictionary_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97723423D5F72700C3ADC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E97723D23D5F72700C3ADC2 /* Rune_Dictionary_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E97724C23D5F72800C3ADC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E97725A23D5F72800C3ADC2 /* NotificationController.swift in Sources */,
+				1E97725823D5F72800C3ADC2 /* ExtensionDelegate.swift in Sources */,
+				1E97725623D5F72800C3ADC2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E97722F23D5F72700C3ADC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E97721623D5F72700C3ADC2 /* Rune Dictionary 2 */;
+			targetProxy = 1E97722E23D5F72700C3ADC2 /* PBXContainerItemProxy */;
+		};
+		1E97723A23D5F72700C3ADC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E97721623D5F72700C3ADC2 /* Rune Dictionary 2 */;
+			targetProxy = 1E97723923D5F72700C3ADC2 /* PBXContainerItemProxy */;
+		};
+		1E97724423D5F72700C3ADC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E97724023D5F72700C3ADC2 /* Rune Dictionary 2 WatchKit App */;
+			targetProxy = 1E97724323D5F72700C3ADC2 /* PBXContainerItemProxy */;
+		};
+		1E97725323D5F72800C3ADC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E97724F23D5F72800C3ADC2 /* Rune Dictionary 2 WatchKit Extension */;
+			targetProxy = 1E97725223D5F72800C3ADC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E97722023D5F72700C3ADC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E97722123D5F72700C3ADC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E97722523D5F72700C3ADC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E97722623D5F72700C3ADC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1E97724623D5F72700C3ADC2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E97724723D5F72700C3ADC2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E97725F23D5F72800C3ADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E97726023D5F72800C3ADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E97726223D5F72800C3ADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		1E97726323D5F72800C3ADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		1E97726623D5F72800C3ADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				IBSC_MODULE = Rune_Dictionary_2_WatchKit_Extension;
+				INFOPLIST_FILE = "Rune Dictionary 2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		1E97726723D5F72800C3ADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				IBSC_MODULE = Rune_Dictionary_2_WatchKit_Extension;
+				INFOPLIST_FILE = "Rune Dictionary 2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		1E97726A23D5F72800C3ADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E97726B23D5F72800C3ADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E97726D23D5F72800C3ADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rune Dictionary 2.app/Rune Dictionary 2";
+			};
+			name = Debug;
+		};
+		1E97726E23D5F72800C3ADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rune Dictionary 2.app/Rune Dictionary 2";
+			};
+			name = Release;
+		};
+		1E97727023D5F72800C3ADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rune Dictionary 2";
+			};
+			name = Debug;
+		};
+		1E97727123D5F72800C3ADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L968H8DPHW;
+				INFOPLIST_FILE = "Rune Dictionary 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.Rune-Dictionary-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rune Dictionary 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E97721223D5F72700C3ADC2 /* Build configuration list for PBXProject "Rune Dictionary 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E97725F23D5F72800C3ADC2 /* Debug */,
+				1E97726023D5F72800C3ADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E97726123D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E97726223D5F72800C3ADC2 /* Debug */,
+				1E97726323D5F72800C3ADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E97726523D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E97726623D5F72800C3ADC2 /* Debug */,
+				1E97726723D5F72800C3ADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E97726923D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E97726A23D5F72800C3ADC2 /* Debug */,
+				1E97726B23D5F72800C3ADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E97726C23D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E97726D23D5F72800C3ADC2 /* Debug */,
+				1E97726E23D5F72800C3ADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E97726F23D5F72800C3ADC2 /* Build configuration list for PBXNativeTarget "Rune Dictionary 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E97727023D5F72800C3ADC2 /* Debug */,
+				1E97727123D5F72800C3ADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E97720F23D5F72700C3ADC2 /* Project object */;
+}
